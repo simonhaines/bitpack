@@ -30,7 +30,7 @@ To retrieve values from a buffer, create a bitpack for the buffer and read.
     unsigned int value = 0;
     bool result = bitpack_read(&pack, &value, 13);  /* value = 7285 */
 
-## Examples and more information
+## Tests and examples
 
-The test file contains some examples, and more information can be found at http://www.scalardata.com/2015/05/space-efficient-data-representation/.
+The test file (test.c) contains some examples. Use `make test` to build and run the examples.
 
